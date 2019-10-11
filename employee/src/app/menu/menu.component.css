@@ -1,0 +1,31 @@
+
+/* .color{
+  background-color: rgb(105, 136, 136);
+}
+.ng-trigger.ng-trigger-animation.ng-tns-c2-0.ui-dialog.ui-confirmdialog.ui-widget.ui-widget-content.ui-corner-all.ui-shadow.ng-star-inserted {
+  margin-left: 715px;
+} */
+.search-container {
+  float: right;
+}
+button.btn.btn-info.btn-lg {
+  margin-left: 100px;
+  /* margin-top: -16px; */
+}
+.thead {
+  background-color: cadetblue;
+}
+.button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only {
+  height: 56px;
+
+}
+img {
+  margin-top: -924px;
+}
+/* button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-empty {
+  width: 108px;
+  height: 57px;
+} */
+/* .button.btn.btn-info.btn-lg {
+  margin-left: 892px;
+} */
