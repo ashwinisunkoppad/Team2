@@ -5,11 +5,11 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
   providedIn: "root"
 })
 export class MenudataService {
-  url: string = "https://22f41d4d.ngrok.io/api/Settings/GetDesignations";
+  url: string = "https://c43d233e.ngrok.io/api/Settings/GetDesignations";
   delUrl: string =
-    "https://22f41d4d.ngrok.io/api/Settings/DeleteDesignation?DesignationId=";
+    "https://c43d233e.ngrok.io/api/Settings/DeleteDesignation?DesignationId=";
   addUrl: string =
-    "https://22f41d4d.ngrok.io/api/Settings/InsUpdateDesignation";
+    "https://c43d233e.ngrok.io/api/Settings/InsUpdateDesignation";
   constructor(private _http: HttpClient) {}
 
   getAlldesignations() {

@@ -5,3 +5,9 @@ button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-empty {
 a.nav-link {
   font-size: 25px;
 }
+nav.navbar.navbar-expand-lg {
+  background-color: rgba(0,123,255,.25);
+}
+/* h3{
+  text-align: center; */
+

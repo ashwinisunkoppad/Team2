@@ -7,7 +7,7 @@ import { MessageService } from "primeng/api";
 
 @Component({
   selector: "app-menu",
-  providers: [MessageService],
+  // providers: [MessageService],
   templateUrl: "./menu.component.html",
   styleUrls: ["./menu.component.css"]
 })
@@ -24,20 +24,34 @@ export class MenuComponent implements OnInit {
   items: MenuItem[];
 
   selectedCar: User;
+  messageSuccess: boolean;
 
   constructor(
     private _data: MenudataService,
     private confirmationService: ConfirmationService,
     private messageService: MessageService
   ) {
-    this.config = {
-      itemsPerPage: 8,
-      currentPage: 1,
-      totalItems: this.collection.length
-    };
+    // this.config = {
+    //   itemsPerPage: 8,
+    //   currentPage: 1,
+    //   totalItems: this.collection.length
+    // };
   }
 
   ngOnInit() {
+
+    this.messageSuccess = true;
+
+    setTimeout(()=>{
+         alert("record")
+     }, 3000);
+
+  //    setInterval(()=>{
+  //     alert("record")
+  // }, 3000);
+
+
+
     this.getAlldesignations();
     this.items = [
       {
